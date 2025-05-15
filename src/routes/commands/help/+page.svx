@@ -1,0 +1,11 @@
+# Command: `+help`
+
+> Source code: [help.ts](https://github.com/myferr/finish-the-lyric/blob/main/src/commands/help.ts)
+
+| Command | Usage                      | Prefix |
+| ------- | -------------------------- | ------ |
+| `help`  | `+help <command?: string>` | `+`    |
+The `help` command triggers an action depending on the argument you pass.
+
+* `+help` - Posts a list of all commands
+* `+help <command>` - Posts an extended description on `<command>`

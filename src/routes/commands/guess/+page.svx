@@ -1,0 +1,12 @@
+# Command: `+guess`
+
+> Source code: [guess.ts](https://github.com/myferr/finish-the-lyric/blob/main/src/commands/guess.ts)
+
+| Command | Usage                                  | Prefix |
+| ------- | -------------------------------------- | ------ |
+| `guess` | `+guess <lyrics \| song \| undefined>` | `+`    |
+The `guess` command triggers an action depending on the argument you pass.
+
+* `+guess` - Triggers an error message requesting an argument
+* `+guess lyrics` - Triggers a prompt where you have to guess the cut off lyric
+* `+guess song` - Triggers a prompt where you have to guess the song name by the lyric(s)

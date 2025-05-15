@@ -1,0 +1,8 @@
+# Command: `+leaderboard`
+
+> Source code: [leaderboard.ts](https://github.com/myferr/finish-the-lyric/blob/main/src/commands/leaderboard.ts)
+
+| Command       | Usage          | Prefix |
+| ------------- | -------------- | ------ |
+| `leaderboard` | `+leaderboard` | `+`    |
+The `leaderboard` command posts a paginated ranking of all users that have won points

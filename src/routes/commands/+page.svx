@@ -1,0 +1,9 @@
+# Command: `+github`
+
+> Source code: [github.ts](https://github.com/myferr/finish-the-lyric/blob/main/src/commands/github.ts)
+
+| Command  | Usage     | Prefix |
+| -------- | --------- | ------ |
+| `github` | `+github` | `+`    |
+
+The `github` command provides the repository for the bot.

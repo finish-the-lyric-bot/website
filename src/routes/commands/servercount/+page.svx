@@ -1,0 +1,8 @@
+# Command: `+servercount`
+
+> Source code: [servercount.ts](https://github.com/myferr/finish-the-lyric/blob/main/src/commands/servercount.ts)
+
+| Command       | Usage          | Prefix |
+| ------------- | -------------- | ------ |
+| `servercount` | `+servercount` | `+`    |
+The `servercount` command tells you the amount of servers that the bot in currently in

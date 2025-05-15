@@ -1,0 +1,8 @@
+# Command: `+points`
+
+> Source code: [points.ts](https://github.com/myferr/finish-the-lyric/blob/main/src/commands/points.ts)
+
+| Command  | Usage     | Prefix |
+| -------- | --------- | ------ |
+| `points` | `+points` | `+`    |
+The `points` command tells your current points balance

@@ -1,0 +1,14 @@
+# Introduction
+
+**Finish The Lyric** ([Invite bot](/add-bot)) is a fun unique economy bot with a mix of music trivia fun!
+You gain points by [guessing](/commands/guess) song lyrics/names correctly, all points are stored in a JSON-based data structure and listed in a [leaderboard](/commands/leaderboard)
+
+The bot is fully open-source and able to be self host easily with it's `x.sh` setup script and Python-based dashboard.
+
+| Bot              | Prefix |
+| ---------------- | ------ |
+| Finish The Lyric | +      |
+
+## Contributors
+
+[![](https://contrib.rocks/image?repo=myferr/finish-the-lyric)](https://github.com/myferr/finish-the-lyric)

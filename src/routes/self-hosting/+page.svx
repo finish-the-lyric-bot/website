@@ -1,0 +1,34 @@
+# Self hosting
+Inside of the [myferr/finish-the-lyric](https://github.com/myferr/finish-the-lyric) repository there is a [`x.sh`](https://github.com/myferr/finish-the-lyric/blob/main/x.sh) setup script that sets up the bot from the repository and installs dependencies.
+
+To run this script just open up your command line and paste in the following command:
+```sh
+bash <(curl -Ss https://raw.githubusercontent.com/myferr/finish-the-lyric/refs/heads/main/x.sh)
+```
+<button onclick={() => {
+    window.navigator.clipboard.writeText("bash <(curl -Ss https://raw.githubusercontent.com/myferr/finish-the-lyric/refs/heads/main/x.sh)")
+    document.getElementById("copy").innerHTML = "Copied!"
+}} id="copy">Click to copy</button>
+
+
+## Running the bot
+> **DON'T FORGET:** You need to have a Guilded bot API key, a Genius.com access key, and a bot prefix inside of your `env.yml` file before running the bot.
+
+There are two ways you can proceed after running the script and filling in your credentials.
+
+1. npx tsx
+	 1. fill in your credentials
+	 2. `npm run start` or `npm run dev`
+2. dashboard
+	1. fill in your credentials
+	2. `cd .dashboard`
+	3. `python3 main.py localhost`
+	4. go to `localhost:8000`
+
+## Dashboard host
+> Dashboard source code: [.dashboard/](https://github.com/myferr/finish-the-lyric/tree/main/.dashboard)
+
+In MacOS and Linux your `$HOST` variable returns a string like `Johndoe-MacBook-Pro.local`
+When running your dashboard there is a `host` argument you have to pass in the command line (example: `python3 main.py localhost`)
+
+To run on `localhost:8000` just pass `localhost`, to run on your `$HOST` (`Johndoe-MacBook-Pro.local`) then pass `$HOST`
