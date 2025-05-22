@@ -13,9 +13,11 @@
 	<hr id="Separator" class="bg-surface-800 mt-6 h-px w-64 border-0" />
 
 	<div class="mt-6 flex flex-wrap justify-center gap-4">
-		<a href="https://docs.finishthelyric.pages.dev" class="btn preset-filled px-6 py-3 text-base">
-			View Docs
+		<a href="/add-bot" class="btn preset-filled-surface-500 px-6 py-3.5 text-base">
+			<img src="/i/guilded-logo.svg" alt="Guilded" width="38" height="38" />
+			Add Bot
 		</a>
+		<a href="/docs" class="btn preset-filled px-6 py-3 text-base"> View Docs </a>
 	</div>
 
 	<p class="text-surface-400 mt-12 text-sm">
