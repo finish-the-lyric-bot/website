@@ -36,7 +36,6 @@
 			links: [
 				{ label: 'Contributors', href: '/awesome-people' },
 				{ label: 'GitHub', href: 'https://github.com/finish-the-lyric-bot', external: true },
-				{ label: 'Terms of Use', href: '/terms-of-use' }
 			]
 		},
 		{
