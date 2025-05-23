@@ -9,5 +9,6 @@
 <a href="https://typescriptlang.org"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript">
 </a>
 <a href="https://skeleton.dev"><img src="https://img.shields.io/badge/SkeletonUI-5e5086?style=for-the-badge&amp;logoColor=white" alt="Skeleton"></a>
+  <a href="https://vercel.com"><img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Vercel"></a>
 </p>
 
